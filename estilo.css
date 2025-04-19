@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    margin: 0;
+    padding: 0;
+    color: var(--color-texto);
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: var(--color-header);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: var(--color-titulo);
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Sección con subtítulos */
+.subtitulo {
+    color: var(--color-subtitulo);
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilo de los párrafos */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilo de los botones */
+button {
+    background-color: var(--color-boton);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Cambiar el color del botón cuando pasa el cursor */
+button:hover {
+    background-color: var(--color-boton-hover);
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: var(--color-footer);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}

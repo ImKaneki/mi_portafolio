@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portada</title>
+    <style>
+        /* Definir una variable para el color de los subtítulos */
+        :root {
+            --color-subtitulo: #e44507; /* Cambia el valor aquí para cambiar el color de los subtítulos */
+            --color-fondo: #f4f4f9; /* Color de fondo */
+            --color-titulo: #333; /* Color del título principal */
+            --color-header: #4CAF50; /* Color del encabezado */
+            --color-texto: #555; /* Color del texto */
+        }
+
+        /* Estilos básicos del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--color-fondo);
+            margin: 0;
+            padding: 0;
+            color: var(--color-texto);
+        }
+
+        /* Estilos del encabezado */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--color-header);
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: var(--color-titulo);
+        }
+
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        /* Estilos para el contenido principal */
+        main {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        /* Estilos para los subtítulos */
+        .subtitulo {
+            color: var(--color-subtitulo); /* Aplicar el color del subtítulo desde la variable CSS */
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Encabezado con título y foto -->
+<header>
+    <h1>Jose Manuel Garriazo Auccasi</h1>
+    <img src="foto.jpg" alt="Foto de perfil"> <!-- Aquí puedes poner tu imagen -->
+</header>
+
+<!-- Contenido principal -->
+<main>
+    <div class="section">
+        <h1 class="subtitulo">Descripción</h1>
+        <p>Soy un joven de 22 años, color marrón y flaco.</p>
+    </div>
+
+    <div class="section">
+        <h1 class="subtitulo">Hobbies</h1>
+        <p>Me gusta comer y jugar Mobile Legends: Bang Bang (MLBB).</p>
+    </div>
+
+    <div class="section">
+        <h1 class="subtitulo">Pasatiempos</h1>
+        <p>Me gusta cuidar a mi gata y sus gatitos, ver películas y escuchar música.</p>
+    </div>
+
+    <div class="section">
+        <h1 class="subtitulo">Actividades Favoritas</h1>
+        <p>Jugar MLBB y comer.</p>
+    </div>
+</main>
+
+</body>
+</html>
